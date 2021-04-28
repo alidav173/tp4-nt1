@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu cafe</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" /> <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="css/tema.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+  <div class="tm-container">
+    <div class="tm-row">
+      <!-- Header -->
+      <div class="tm-left">
+        <div class="tm-left-inner">
+          <div class="tm-site-header">
+            <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+            <h1 class="tm-site-name">Café de la playa</h1>
+          </div>
+          <nav class="tm-site-nav">
+            <ul class="tm-site-nav-ul">
+              <li class="tm-page-nav-item">
+                <a href="#drink" class="tm-page-link active">
+                  <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                  <span>Bebidas</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="#special" class="tm-page-link">
+                  <i class="fas fa-glass-martini tm-page-link-icon"></i>
+                  <span>Platos Especiales</span>
+                </a>
+              </li>
+              <li class="tm-page-nav-item">
+                <a href="formulario.html" target="_blank" class="tm-page-link">
+                  <span>Formulario de Registro</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="tm-right">
+        <main class="tm-main">
+          <div id="drink" class="tm-page-content">
+            <!-- Pagina de las bebidas -->
+            <nav class="tm-black-bg tm-drinks-nav">
+              <ul>
+                <li>
+                  <a href="#" class="tm-tab-link active" data-id="cold">Café helado</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="hot">Cafe expreso</a>
+                </li>
+                <li>
+                  <a href="#" class="tm-tab-link" data-id="juice">Licuados</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="cold" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">
+                  <img src="img/iced-americano.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Americano Iced<span class="tm-list-item-price">$200</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/iced-cappuccino.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Cappuccino<span class="tm-list-item-price">$250</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/iced-espresso.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Espresso<span class="tm-list-item-price">$300</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/iced-latte.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Iced Latte<span class="tm-list-item-price">$350</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div id="hot" class="tm-tab-content">
+              <div class="tm-list">
+
+                <div class="tm-list-item">
+                  <img src="img/hot-americano.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Expreso<span class="tm-list-item-price">$100</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/hot-cappuccino.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Cortado<span class="tm-list-item-price">$120</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/hot-espresso.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Expreso grande<span class="tm-list-item-price">$180</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/hot-latte.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Latte<span class="tm-list-item-price">$200</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div id="juice" class="tm-tab-content">
+              <div class="tm-list">
+                <div class="tm-list-item">
+                  <img src="img/smoothie-1.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Frambuesa<span class="tm-list-item-price">$350</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/smoothie-2.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Frutos rojos<span class="tm-list-item-price">$350</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/smoothie-3.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Ananá<span class="tm-list-item-price">$350</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+                <div class="tm-list-item">
+                  <img src="img/smoothie-4.png" alt="Image" class="tm-list-item-img">
+                  <div class="tm-black-bg tm-list-item-text">
+                    <h3 class="tm-list-item-name">Licuado Verde<span class="tm-list-item-price">$380</span></h3>
+                    <p class="tm-list-item-description">Una corta descripción del producto</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin página de las bebidas -->
+          </div>
+
+
+          <!-- Página platos especiales -->
+          <div id="special" class="tm-page-content">
+            <div class="tm-special-items">
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-01.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Menu especial 1</h2>
+                  <p class="tm-special-item-text">Una corta descripción del producto</p>
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-02.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Menu especial 2</h2>
+                  <p class="tm-special-item-text">Una corta descripción del producto</p>
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-03.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Menu especial 3</h2>
+                  <p class="tm-special-item-text">Una corta descripción del producto</p>
+                </div>
+              </div>
+              <div class="tm-black-bg tm-special-item">
+                <img src="img/special-04.jpg" alt="Image">
+                <div class="tm-special-item-description">
+                  <h2 class="tm-text-primary tm-special-item-title">Menu especial 4</h2>
+                  <p class="tm-special-item-text">Una corta descripción del producto</p>
+                </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- Fin platos especiales -->
+
+        </main>
+      </div>
+    </div>
+    <footer class="tm-site-footer">
+      <p class="tm-black-bg tm-footer-text">Copyright 2021 Argentina
+    </footer>
+  </div>
+
+</body>
+</html>
